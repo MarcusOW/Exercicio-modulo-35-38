@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import { useDispatch } from 'react-redux'
-import { add, open } from '../../store/reducers/cart'
+import { add } from '../../store/reducers/cart'
 
 import Header from '../../components/Header'
 import ItemList from '../../components/ItemList'
