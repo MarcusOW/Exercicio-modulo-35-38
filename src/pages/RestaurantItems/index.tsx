@@ -52,7 +52,6 @@ const RestaurantItems = () => {
         item={selectedItem}
         onAddToCart={handleAddToCart}
       />
-      <Cart />
     </>
   )
 }
